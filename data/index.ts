@@ -107,33 +107,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      name: "Emmanuel Guchi",
+      title: "CEO, Tricrest Healthcare",
+    },
+    {
+      quote:
+      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      name: "Ola Sulaimon",
+      title: "Director of MyEventPod",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      name: "Daniel Puhra",
+      title: "Director of ComCom Austria",
     },
   ];
   

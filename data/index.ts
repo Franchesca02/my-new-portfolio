@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Event planning Application for Event Vendors and Hosts",
+      des: "Explore the wonders of an event planning application with admin and user dashboard where hosts are connected to vendors",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://www.myeventpod.com/",
     },
     {
       id: 2,

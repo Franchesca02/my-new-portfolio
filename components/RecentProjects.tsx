@@ -18,11 +18,10 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] sm:w-[570px] flex items-center justify-center w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+          
+            <PinContainer title={link}>
+            <a href={link} target="_blank">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                {/* <div className="w-full h-full relative overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="./bg.png" alt="bg-img" />
-                </div> */}
                 <img src={img} alt={title} className="absolute z-10" />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -51,7 +50,9 @@ const RecentProjects = () => {
                     <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+              </a>
             </PinContainer>
+         
           </div>
         ))}
       </div>

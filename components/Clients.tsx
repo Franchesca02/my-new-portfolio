@@ -23,13 +23,13 @@ const Clients = () => {
                     <img
                     src={img}
                     alt={name}
-                    className='md:w-40 md:h-28 w-10'
+                    className='md:w-20 md:h-20 w-12 h-12'
                     />
 
                     <img
                     src={nameImg}
                     alt={name}
-                    className='md:w-28 w-20'
+                    className='md:w-20 w-16'
                     />
 
                 </div>

@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently building a blog website using Angular",
+      description: "Angular Blog",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -108,32 +108,37 @@ export const navItems = [
     {
       quote:
         "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      name: "Bamyx ",
+      title: "CEO Bamyx Technologies",
+      img: "dir-profile 2.jpg",
     },
     {
       quote:
-      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      "Working with Ifeyinwa was an outstanding experience. Her professionalism, responsiveness, and commitment to delivering top-tier results were evident from start to finish. Her passion for every aspect of development truly shines through, making her a standout collaborator. If you're looking to enhance your website and take your brand to the next level, Ifeyinwa is the perfect partner to help you achieve your goals.",
       name: "Emmanuel Guchi",
       title: "CEO, Tricrest Healthcare",
+      img: "dir-profile 1.jpg",
     },
     {
       quote:
-      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism and dedication to excellence were evident in every aspect of our project. She approached every challenge with enthusiasm and creativity, delivering exceptional results. I highly recommend Ifeyinwa for anyone looking to elevate their website and brand.",
+      name: "Justin",
+      title: "Cordinator, Freelance Team Project",
+      img: "freelance-profile.jpg",
     },
     {
       quote:
-      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      "Ifeyinwa is an exceptional developer and partner. Her promptness, attention to detail, and passion for creating top-quality work made our collaboration seamless. She exceeded our expectations at every step. If you're seeking someone to bring your vision to life, Ifeyinwa is the one to call.",
       name: "Ola Sulaimon",
-      title: "Director of MyEventPod",
+      title: "Director of MyEventPod USA",
+      img: "ceo-profile 1.jpg",
     },
     {
       quote:
-      "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ifeyinwa's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ifeyinwa is the ideal partner.",
+      "Working with Ifeyinwa was a game-changer for our project. She combines expertise, dedication, and a genuine enthusiasm for her craft, making her a joy to collaborate with. The results were beyond impressive, and our brand has never looked better. I can't recommend her enough!",
       name: "Daniel Puhra",
       title: "Director of ComCom Austria",
+      img: "ceo-profile 2.jpg",
     },
   ];
   
@@ -141,7 +146,7 @@ export const navItems = [
     {
       id: 1,
       name: "myeventpod",
-      img: "/mypod.webp",
+      img: "/myvp.avif",
       nameImg: "/myeventpodName.png",
     },
     {
@@ -168,27 +173,30 @@ export const navItems = [
     {
       id: 1,
       title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Assisted in the development of a web-based event planning platform using React.js, enhancing interactivity across USA.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
+   
     {
       id: 3,
       title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      desc: "Led the dev of a healthcare app for a client, to ease the booking and consultation processes across the globe using Next JS.",
+      className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
+
+    {
+      id: 2,
+      title: "Frontend Developer ",
+      desc: "Assisted in the development of a video call platform for the hearing impaired across Austria",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    },
+
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Frontend Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
@@ -199,13 +207,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Franchesca02",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/ihuoma-ifeyinwa-bb8a51170",
     },
   ];

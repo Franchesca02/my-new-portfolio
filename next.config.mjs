@@ -3,6 +3,7 @@ import {withSentryConfig} from "@sentry/nextjs";
 
 
 const nextConfig = {
+    autoInstrumentServerFunctions: false,
     typescript: {
         ignoreBuildErrors: true,
     }

@@ -124,7 +124,7 @@ export const navItems = [
       "Collaborating with Ifeyinwa was an absolute pleasure. Her professionalism and dedication to excellence were evident in every aspect of our project. She approached every challenge with enthusiasm and creativity, delivering exceptional results. I highly recommend Ifeyinwa for anyone looking to elevate their website and brand.",
       name: "Justin",
       title: "Cordinator, Freelance Team Project",
-      img: "freelance-profile.jpg",
+      img: "freelance-profile 1.jpg",
     },
     {
       quote:
@@ -138,7 +138,7 @@ export const navItems = [
       "Working with Ifeyinwa was a game-changer for our project. She combines expertise, dedication, and a genuine enthusiasm for her craft, making her a joy to collaborate with. The results were beyond impressive, and our brand has never looked better. I can't recommend her enough!",
       name: "Daniel Puhra",
       title: "Director of ComCom Austria",
-      img: "ceo-profile 2.jpg",
+      img: "dir-profile 3.jpg",
     },
   ];
   

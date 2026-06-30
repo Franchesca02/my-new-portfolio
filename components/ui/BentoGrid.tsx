@@ -1,15 +1,28 @@
-
 'use client'
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { cn } from "@/lib/utils";
-import { BackgroundGradientAnimation } from "./GradientBg";
-import { Globe } from "./Globe";
-import { GlobeDemo } from "./GridGlobe";
-import animationData from '@/data/confetti.json'
-import Lottie from "react-lottie";
-import { useState } from "react";
-import MagicButton from "./MagicButton";
+import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import dynamic from 'next/dynamic';
+import animationData from '@/data/confetti.json'
+// import Lottie from 'lottie-react';
+
+const BackgroundGradientAnimation = dynamic(
+  () => import('./GradientBg').then(mod => mod.BackgroundGradientAnimation),
+  { ssr: false }
+);
+
+const GlobeDemo = dynamic(
+  () => import('./GridGlobe').then(mod => mod.GlobeDemo),
+  { ssr: false }
+);
+
+const MagicButton = dynamic(
+  () => import('./MagicButton'),
+  { ssr: false }
+);
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -53,22 +66,20 @@ export const BentoGridItem = ({
 }) => {
   const leftLists = ["ReactJS", "NextJS", "Typescript"];
   const rightLists = ["Angular", "AWS", "Framer"];
-  const [copied, setCopied] = useState(false)
+  const [copied, setCopied] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const handleCopy = () => {
     const text = 'ihuoma.franchesca@gmail.com';
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-  }
+    if (typeof navigator !== 'undefined') {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+    }
+  };
 
   return (
     <div
@@ -78,8 +89,8 @@ export const BentoGridItem = ({
       )}
       style={{
         background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        // backgroundColor:
+        //   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
@@ -93,8 +104,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -127,10 +139,8 @@ export const BentoGridItem = ({
 
           {id === 2 && <GlobeDemo />}
 
-          {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
                   <span
@@ -157,16 +167,19 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+          
           {id === 6 && (
             <div className="mt-5 relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
-              >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
+                {isClient && (
+                  <Lottie 
+                    animationData={animationData}
+                    loop={copied}
+                    autoplay={copied}
+                    style={{ height: 200, width: 400 }}
+                  />
+                )}
               </div>
-
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}

@@ -58,7 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ifeyinwa, a Next.js Developer based in Nigeria.
+            Hi! I&apos;m Ifeyinwa, a Next.js Developer based in the United States.
           </p>
 
           <a href="#about">

@@ -102,6 +102,15 @@ export const navItems = [
       iconLists: ["/ang.png", "/tail.svg", "/ts.svg", "/ai.jpg"],
       link: "http://app.comcom.at/company/google/",
     },
+
+     {
+      id: 4,
+      title: "EasySpend",
+      des: "EasySpend is a latform that offers a seamless, user-friendly financial transaction experience, making it easier than ever to spend, save, and budget for businesses and individuals using USD and NGN virtual cards with secure connection and strong security architecture.",
+      img: "/easyspend-logo.png",
+      iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/ai.jpg"],
+      link: "https://easyspend.cc/",
+    },
   ];
   
   export const testimonials = [
@@ -167,6 +176,12 @@ export const navItems = [
       img: "/comcom.png",
       nameImg: "/ComcomName.png",
     },
+     {
+      id: 5,
+      name: "EasySpend",
+      img: "/easyspend-logo.png",
+      nameImg: "/easyspend-logo.png",
+    },
   ];
   
   export const workExperience = [
@@ -200,6 +215,14 @@ export const navItems = [
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+
+     {
+      id: 5,
+      title: "Frontend Developer",
+      desc: "Built a fintech platform for users across the globe with friendly features using modern frontend technologies.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
     },
   ];
   
